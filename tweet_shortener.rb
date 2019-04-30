@@ -16,10 +16,9 @@ end
 
 
 def word_substituter(tweet)
-  dictonary
   tweet.split.collect do |word|
-    if word == dictonary.key
-      word = dictonary.values
+    if word == dictionary.key
+      word = dictionary.values
       
 end
 end
