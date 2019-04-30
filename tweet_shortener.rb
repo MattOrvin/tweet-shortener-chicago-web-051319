@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   dictionary.collect do |long_words, short_words|
-    
+    if long_words.to_s == 
 
 end
 end
