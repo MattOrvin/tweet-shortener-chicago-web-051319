@@ -19,7 +19,7 @@ def word_substituter(tweet)
   tweet.split.collect do |word|
     
 end
-
+end
 
 def bulk_tweet_shortener(tweets)
   
