@@ -16,7 +16,11 @@ end
 
 
 def word_substituter(tweet)
-  tweet.split
+  tweet.split.collect do |word|
+    if word == dictionary.keys
+      word = dictionary.values
+end
+end
 end
 
 def bulk_tweet_shortener(tweets)
