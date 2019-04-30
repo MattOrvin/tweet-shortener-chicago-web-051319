@@ -17,9 +17,8 @@ end
 
 def word_substituter(tweet)
   dictionary.collect do |long_words, short_words|
- 
-end
-end
+    
+
 end
 end
 
