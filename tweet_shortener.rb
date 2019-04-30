@@ -20,6 +20,7 @@ def word_substituter(tweet)
     if word == dictionary.keys
       word = dictionary.values
 end
+tweet.join
 end
 end
 
