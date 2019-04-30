@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   dictionary.collect do |long_words, short_words|
-    binding.pry
+    
   tweet.split.collect do |word|
     if word == dictionary.keys
       word.replace"#{dictionary.values}".join
