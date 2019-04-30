@@ -16,7 +16,7 @@ end
 
 
 def word_substituter(tweet)
-  tweet.to_a
+  tweet.split
 end
 
 def bulk_tweet_shortener(tweets)
